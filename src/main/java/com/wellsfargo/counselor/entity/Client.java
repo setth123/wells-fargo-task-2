@@ -50,8 +50,8 @@ public class Client {
         this.advisor=advisor;
     }
 
-    public Long getAdvisorId() {
-        return advisorId;
+    public Long getClientId() {
+        return clientId;
     }
 
     public String getFirstName() {
@@ -93,15 +93,7 @@ public class Client {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    public List<Client> getClients() {
-        return clients;
-    }
-
-    public void setClients(List<Client> clients) {
-        this.clients = clients;
-    }
-
+    
     public Advisor getAdvisor(){
         return advisor;
     }
